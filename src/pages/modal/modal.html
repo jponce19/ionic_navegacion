@@ -1,0 +1,24 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>pagina Modal</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <h1>modal.</h1>
+  <h1>nombre.:{{nombre}}</h1>
+  <h1>edad...:{{edad}}</h1>
+
+  <button ion-button block color="primary"
+          (click)="cerrar_con_param()">cerrar con param
+  </button>
+  <button ion-button block color="morado"
+          (click)="cerrar_sin_param()">cerrar sin param
+  </button>
+
+</ion-content>
